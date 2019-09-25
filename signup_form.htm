@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="F:\web\New folder\bootstrap.css">
+<script src="F:\web\New folder\frmval.js">
+</script>
+</head>
+<body>
+ 
+ <form name="fr" ID="ff" method="get" action="reg.html">
+  
+  
+
+<div class="jumbotron">
+  <div class="container">
+ <CENTER><h1> Sign-up </h1></CENTER>
+
+<pre>
+First Name        <input type="text" required name="fn">
+     
+Last Name         <input type="text" required name="ln">
+	     
+E-Mail            <input type="email" required name="em"><div ID="divemail" style= "color:red"></div>
+ 	                               
+Contact No        <input type="number" required name="cn"><div ID="divcn" style= "color:red"></div>
+	          	          
+Age 	          <input type="text" required name="ag"><div ID="divage" style= "color:red"></div>
+ 	          	          
+Password          <input type="password" ID="pwi" required name="pw">  <u onclick="show()">Show Password</u>
+
+Confirm Password  <input type="password" required name="cpw"><div ID="divpass" style= "color:red"></div>
+
+	         
+<input type="button" class="btn btn-info" value="SIGNUP" onclick="validate()">    <button type="reset" class="btn btn-info">RESET</button>
+	         <div ID="div1" style= "color:red"><font color="red"></div></pre>
+   </div>
+</div>              
+                 
+ 
+ </form>
+
+
+</body>
+</html>

@@ -4,7 +4,7 @@
     var x= validate();
 	if (x)
 	  {
-	    document.write("<html><head><title>registered</title></head><body><h1>You have been registered successfully</body></html>");
+	    document.write("<html><head><title>Registered</title></head><body><h1>You have been registered successfully</body></html>");
 	  }
   }*/
 
